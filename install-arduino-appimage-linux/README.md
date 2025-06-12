@@ -30,6 +30,11 @@ cd /opt/arduino
 ./arduino.AppImage --appimage-extract
 ```
 
+If you get permission error, use
+```
+sudo ./arduino.AppImage --appimage-extract
+```
+
 Then copy the icon:
 
 ```bash
