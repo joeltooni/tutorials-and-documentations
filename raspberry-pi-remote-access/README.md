@@ -6,15 +6,17 @@ This guide walks you through configuring a Raspberry Pi running Ubuntu for secur
 
 ## 📌 Table of Contents
 
-1. Install and Enable OpenSSH
-2. SSH into the Raspberry Pi
-3. Set a Static IP Address (Optional)
-4. Set Up Passwordless SSH (Optional)
-5. Install and Configure Tailscale
-6. Remote Access Using Tailscale
-7. Optional SSH Hardening
-8. Summary Table
-9. Author
+- [🛠️ Raspberry Pi Remote Access Setup (OpenSSH + Tailscale)](#️-raspberry-pi-remote-access-setup-openssh--tailscale)
+  - [📌 Table of Contents](#-table-of-contents)
+  - [1. Install and Enable OpenSSH](#1-install-and-enable-openssh)
+  - [2. SSH into the Raspberry Pi](#2-ssh-into-the-raspberry-pi)
+  - [3. Set a Static IP Address (Optional)](#3-set-a-static-ip-address-optional)
+  - [4. Set Up Passwordless SSH (Optional)](#4-set-up-passwordless-ssh-optional)
+  - [5. Install and Configure Tailscale](#5-install-and-configure-tailscale)
+  - [6. Remote Access Using Tailscale](#6-remote-access-using-tailscale)
+  - [7. Optional SSH Hardening](#7-optional-ssh-hardening)
+  - [8. Summary Table](#8-summary-table)
+  - [9. Author](#9-author)
 
 ---
 
@@ -39,6 +41,8 @@ sudo systemctl start ssh
 ```bash
 systemctl status ssh
 ```
+
+Expected output should include: `Active: active (running)`
 
 ---
 
@@ -122,7 +126,7 @@ sudo systemctl start tailscaled
 sudo tailscale up
 ```
 
-This opens a browser to log in via GitHub/Google/etc.
+This opens a browser where you log in using GitHub, Google, or your Tailscale account.
 
 ---
 
@@ -130,7 +134,8 @@ This opens a browser to log in via GitHub/Google/etc.
 
 **Get Pi’s Tailscale IP:**
 
-Visit: https://login.tailscale.com/admin/machines
+Visit <a href="https://login.tailscale.com/admin/machines" target="_blank">Tailscale Admin Panel</a>  
+You’ll find your Pi listed along with its Tailscale IP.
 
 **Connect Remotely:**
 
@@ -186,7 +191,7 @@ sudo ufw enable
 
 ## 9. Author
 
-**Joeltooni**  
-This tutorial is part of the [Tutorials and Documentations](https://github.com/YOUR_USERNAME/tutorials-and-documentations) repository.
+Created by [Joeltooni](https://github.com/joeltooni){:target="_blank"}  
+This tutorial is part of the [Tutorials and Documentations](https://github.com/joeltooni/tutorials-and-documentations){:target="_blank"} repository.
 
-> Star the repo ⭐ if this helped you!
+> ⭐ Star the repo if this helped you!
