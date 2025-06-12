@@ -10,7 +10,7 @@ This guide shows how to fix this by downloading a compatible `libffmpeg.so` and 
 
 ### 1. Download a Compatible `libffmpeg.so`
 
-Go to the [nwjs-ffmpeg-prebuilt releases](https://github.com/nwjs-ffmpeg-prebuilt/nwjs-ffmpeg-prebuilt/releases){:target="_blank"}.
+Go to the [nwjs-ffmpeg-prebuilt releases](https://github.com/nwjs-ffmpeg-prebuilt/nwjs-ffmpeg-prebuilt/releases).
 
 > ✅ Look for a release ending in `-linux-x64.zip` (not `osx`)
 
@@ -47,14 +47,13 @@ Opera's install path is usually:
 /lib/x86_64-linux-gnu/opera
 ```
 
-Instead of replacing the original, copy the codec to a safe location:
+Copy the codec to the opera directory:
 
 ```bash
-sudo mkdir -p /lib/x86_64-linux-gnu/opera/lib_extra
-sudo cp libffmpeg.so /lib/x86_64-linux-gnu/opera/lib_extra/
+sudo cp libffmpeg.so /lib/x86_64-linux-gnu/opera/
 ```
 
-Opera will load the compatible codec from `lib_extra`.
+Opera will locate and load the compatible codec from `/lib/x86_64-linux-gnu/opera/`.
 
 ---
 
@@ -79,7 +78,7 @@ Udemy videos should now play without issues.
 
 ## 👤 Author
 
-[Joeltooni](https://github.com/joeltooni){:target="_blank"}  
-Part of the [Tutorials and Documentations](https://github.com/joeltooni/tutorials-and-documentations){:target="_blank"} repository.
+[Joeltooni](https://github.com/joeltooni)
+Part of the [Tutorials and Documentations](https://github.com/joeltooni/tutorials-and-documentations) repository.
 
 > Found this helpful? ⭐ Star the repo or share with others!
