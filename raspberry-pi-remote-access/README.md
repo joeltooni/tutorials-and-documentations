@@ -73,6 +73,7 @@ sudo nmtui
 ```
 
 Steps:
+
 - Edit a connection
 - Select your interface (e.g., `eth0` or `wlan0`)
 - Set:
@@ -134,10 +135,10 @@ This opens a browser where you log in using GitHub, Google, or your Tailscale ac
 
 **Get Pi’s Tailscale IP:**
 
-Visit <a href="https://login.tailscale.com/admin/machines" target="_blank">Tailscale Admin Panel</a>  
+Visit [Tailscale Admin Panel](https://login.tailscale.com/admin/machines){:target="_blank"}
 You’ll find your Pi listed along with its Tailscale IP.
-
-**Connect Remotely:**
+**Connect Remotely:**  
+[Open Tailscale Admin Panel](https://login.tailscale.com/admin/machines){:target="_blank"}
 
 ```bash
 ssh joeltooni@100.x.y.z
@@ -191,7 +192,7 @@ sudo ufw enable
 
 ## 9. Author
 
-Created by [Joeltooni](https://github.com/joeltooni){:target="_blank"}  
+Created by [Joeltooni](https://github.com/joeltooni){:target="_blank"}
 This tutorial is part of the [Tutorials and Documentations](https://github.com/joeltooni/tutorials-and-documentations){:target="_blank"} repository.
 
 > ⭐ Star the repo if this helped you!
