@@ -29,7 +29,7 @@ Welcome to my collection of technical guides, practical setup instructions, and 
 
 ## 🧑‍💻 Author
 
-[Joeltooni](https://github.com/joeltooni){:target="_blank"}  
+[Joeltooni](https://github.com/joeltooni)
 > If you find this repository helpful, give it a ⭐ and feel free to contribute or suggest new tutorials.
 
 ---
