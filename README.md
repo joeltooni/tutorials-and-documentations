@@ -18,6 +18,7 @@ Welcome to my collection of technical guides, practical setup instructions, and 
 
 ## 🧱 Upcoming/Addable Tutorials (Ideas)
 
+- Remote SSHing with VScode guide
 - Docker setup & volume management  
 - VS Code remote development over SSH  
 - ROS 2 environment setup on Ubuntu  
